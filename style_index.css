@@ -1,0 +1,104 @@
+/* src: url('https://raw.githubusercontent.com/yourusername/yourrepository/main/fonts/yourfont.woff') format('woff'); */
+
+body,
+h1,
+p,
+label,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: rgb(24, 27, 31);
+    position: relative;
+}
+
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Berlin Sans FB Demi';
+    font-size: 6em;
+    margin-top: 90px;
+    margin-bottom: 20px; /* Adjust the value to move it upwards */
+}
+
+#custom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+#who {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 5px; /* Adjust the value to move it upwards */
+    font-family: 'Berlin Sans FB Demi';
+}
+
+#playerOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#aiLabel,
+#humanLabel {
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.difficulty-options {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#select {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px; /* Add margin to create distance */
+}
+
+#difficulty {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+}
+
+#difficulty label {
+    margin: 0 20px; /* Adjust the margin between the difficulty options */
+}
+
+button {
+    font-size: 20px;
+    padding: 20px 40px;
+    margin-top: 90px;
+    border-radius: 40px;
+    background-color: #3c963f; /* Change this to your desired color */
+    color: white; /* Set the text color */
+    border: none;
+}
+
+button:hover {
+    background-color: #2f7e31; /* Change this to your desired hover color */
+    color: white; /* Change this to your desired hover color */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+}
